@@ -19,8 +19,18 @@ function App() {
 
       <Button  variant="contained" sx={{
         backgroundColor:"skyblue",
+        color: "#888",
+        margin:5,
+        "&:hover":{
+          backgroundColor:"lightblue",
+          color: "white"
+        },
+        "&:disabled":{
+          backgroundColor:"gray",
+          color:"white"
+        }
       }}  >
-        Mu Unique Button
+        My Unique Button
       </Button>
 
     </div>
