@@ -1,39 +1,39 @@
-import {Button} from '@mui/material'
-import {Delete} from '@mui/icons-material';
 
-import { Add } from '@mui/icons-material'
-import {Typography} from '@mui/material'
+
+import Sidebar from "./components/Sidebar";
+import Feed from "./components/Feed";
+import Rightbar from "./components/Rightbar";
+
+import { Box, Stack } from "@mui/material"
+import Navbar from "./components/Navbar";
+
 
 function App() {
+
+  
+
+
   return (
-    <div >
-      Hello
+    <Box  >
+      {
+        <Navbar />
+      }
 
-      <Button variant="text">Text</Button>
-      <Button variant="contained" color="success" startIcon={<Add />}  >Contained</Button>
-      <Button variant="outlined" startIcon={<Delete />} >Outlined</Button>
+      <Stack 
+        direction="row"
+        spacing={2}
+        justifyContent="space-between"
+        >
 
-      <Typography variant="h1" component="p">
-        It uses h1 style but it's a p tag
-      </Typography>
+      <Sidebar />
+      
+      <Feed  />
 
-      <Button  variant="contained" sx={{
-        backgroundColor:"skyblue",
-        color: "#888",
-        margin:5,
-        "&:hover":{
-          backgroundColor:"lightblue",
-          color: "white"
-        },
-        "&:disabled":{
-          backgroundColor:"gray",
-          color:"white"
-        }
-      }}  >
-        My Unique Button
-      </Button>
+      <Rightbar  />
 
-    </div>
+      </Stack>
+
+    </Box>
   );
 }
 
