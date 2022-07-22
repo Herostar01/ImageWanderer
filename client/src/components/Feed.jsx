@@ -1,6 +1,7 @@
 import {  Box } from '@mui/material'
 import React from 'react'
 import Post from './Post'
+import PostTwo from './PostTwo'
 
 const Feed = () => {
 
@@ -11,6 +12,8 @@ return (
     flex={4}
     p={2}
     >
+
+    <PostTwo />
     
     <Post />
 

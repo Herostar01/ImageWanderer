@@ -6,6 +6,7 @@ import Rightbar from "./components/Rightbar";
 
 import { Box, Stack } from "@mui/material"
 import Navbar from "./components/Navbar";
+import Add from "./components/Add";
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
       <Rightbar  />
 
       </Stack>
+
+      <Add />
 
     </Box>
   );

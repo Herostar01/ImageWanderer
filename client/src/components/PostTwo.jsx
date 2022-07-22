@@ -3,7 +3,7 @@ import React from 'react'
 import { Favorite, FavoriteBorder, MoreVert, Share } from '@mui/icons-material'
 import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material'
 
-const Post = () => {
+const PostTwo = () => {
 
   return (
 
@@ -32,12 +32,12 @@ const Post = () => {
       <CardMedia
         component="img"
         height="20%"
-        image="https://t3.ftcdn.net/jpg/01/36/86/02/360_F_136860247_EZEktYTsrwGsIoMa1TdDXd5ImD8lmOYr.jpg"
+        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuDxbbCTZeX36tsbhFmIgVitYqppmfz79Evg&usqp=CAU"
         alt="Paella dish"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive sunset overlooking the Pacific Ocean from the beaches of Maui, Hawaii stuns and mesmerizes ever tourist lucky enough to witness such awe inspring beauty. 
+          John Abraham and Sharukh Khan star in this action packed, suspense-filled, thriller movie. 
         </Typography>
 
       </CardContent>
@@ -63,4 +63,4 @@ const Post = () => {
     )
 }
 
-export default Post
+export default PostTwo
