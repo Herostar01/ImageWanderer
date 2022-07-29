@@ -3,7 +3,7 @@ import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch
 
 import { AccountBox, Article, Group, Home, ModeNight, Person, Settings, Storefront } from '@mui/icons-material';
 
-const Sidebar = () => {
+const Sidebar = ({mode, setMode}) => {
 
 return (
 
@@ -103,10 +103,14 @@ return (
             <ListItemButton  component="a" href="home" >
                 <ListItemIcon>
                 
-                <ModeNight />
+                <ModeNight 
+                
+                />
 
                 </ListItemIcon>
-                <Switch />
+                <Switch 
+                onChange={e=>setMode( mode === "light" ? "dark" : "light" )}
+                />
             </ListItemButton>
             </ListItem>
 

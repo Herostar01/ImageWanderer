@@ -27,7 +27,7 @@ const Post = () => {
           </IconButton>
         }
         title="John Abraham"
-        subheader="September 14, 2022"
+        subheader="September 21, 2020"
       />
       <CardMedia
         component="img"

@@ -3,7 +3,7 @@ import React from 'react'
 import { Favorite, FavoriteBorder, MoreVert, Share } from '@mui/icons-material'
 import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material'
 
-const PostTwo = () => {
+const PostFour = () => {
 
   return (
 
@@ -27,17 +27,17 @@ const PostTwo = () => {
           </IconButton>
         }
         title="John Abraham"
-        subheader="September 14, 2022"
+        subheader="July 17, 2021"
       />
       <CardMedia
         component="img"
         height="20%"
-        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuDxbbCTZeX36tsbhFmIgVitYqppmfz79Evg&usqp=CAU"
+        image="https://assets.gqindia.com/photos/5cdc2fc962fe40b729841d2d/4:3/w_1440,h_1080,c_limit/john-abraham.jpg"
         alt="Paella dish"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          Sharukh Khan and I star in this action packed, suspense-filled, thriller movie. 
+            I am humbled and honored to have been selected as India GQ's man of the year. 
         </Typography>
 
       </CardContent>
@@ -63,4 +63,4 @@ const PostTwo = () => {
     )
 }
 
-export default PostTwo
+export default PostFour
